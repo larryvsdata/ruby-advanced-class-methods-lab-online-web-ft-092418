@@ -12,9 +12,9 @@ class Song
   
   
   
-   def self.create (name)
+   def self.create 
     song = self.new
-    song.name = name
+    
     @@all << song
     song
   end

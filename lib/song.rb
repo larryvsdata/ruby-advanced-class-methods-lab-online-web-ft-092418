@@ -40,13 +40,7 @@ class Song
       return nil
   end
 
-  def self.check_by_name (name)
-    
-    @@all.each do |x|
-      return true if x.name==name
-    end
-      return false
-  end 
+
   
   def self
 

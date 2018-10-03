@@ -60,6 +60,7 @@ class Song
     song=self.new
     song.name=filename.split("-")[1].split(".")[0].split
     song.artist=filename.split("-")[1].split(".")[0].split
-  end
     song
+  end
+    
 end
